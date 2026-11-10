@@ -1,0 +1,275 @@
+{
+  "docs": {
+    "grad-req-115": {
+      "method": "pdf_text",
+      "mode": "table",
+      "units": 9,
+      "preamble_lines": 2,
+      "revision_date": "113.12.31"
+    },
+    "grad-req-114": {
+      "method": "pdf_text",
+      "mode": "table",
+      "units": 9,
+      "preamble_lines": 2,
+      "revision_date": "113.12.31"
+    },
+    "grad-req-113": {
+      "method": "pdf_text",
+      "mode": "table",
+      "units": 9,
+      "preamble_lines": 2,
+      "revision_date": "108.10.28"
+    },
+    "grad-req-111_112": {
+      "method": "pdf_text",
+      "mode": "table",
+      "units": 9,
+      "preamble_lines": 2,
+      "revision_date": "105.4.13"
+    },
+    "grad-req-110": {
+      "method": "pdf_text",
+      "mode": "table",
+      "units": 9,
+      "preamble_lines": 2,
+      "revision_date": "105.4.13"
+    },
+    "grad-req-109": {
+      "method": "pdf_text",
+      "mode": "table",
+      "units": 9,
+      "preamble_lines": 2,
+      "revision_date": "105.4.13"
+    },
+    "grad-req-108": {
+      "method": "pdf_text",
+      "mode": "table",
+      "units": 9,
+      "preamble_lines": 2,
+      "revision_date": "105.4.13"
+    },
+    "grad-req-107": {
+      "method": "pdf_text",
+      "mode": "table",
+      "units": 9,
+      "preamble_lines": 2,
+      "revision_date": "105.4.13"
+    },
+    "grad-req-106": {
+      "method": "pdf_text",
+      "mode": "table",
+      "units": 9,
+      "preamble_lines": 2,
+      "revision_date": "105.4.13"
+    },
+    "grad-req-104_105": {
+      "method": "manual_transcription",
+      "mode": "heading",
+      "units": 9,
+      "revision_date": "106.9.1"
+    },
+    "grad-req-103": {
+      "method": "manual_transcription",
+      "mode": "heading",
+      "units": 9,
+      "revision_date": "106.9.1"
+    },
+    "grad-req-102": {
+      "method": "pdf_text",
+      "mode": "table",
+      "units": 9,
+      "preamble_lines": 2,
+      "revision_date": "100.12.2"
+    },
+    "grad-req-101": {
+      "method": "pdf_text",
+      "mode": "table",
+      "units": 9,
+      "preamble_lines": 2,
+      "revision_date": "100.12.2"
+    },
+    "mis-master-rules": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 9,
+      "preamble_lines": 10,
+      "revision_date": "109.11.4"
+    },
+    "mis-exec-master-rules": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 9,
+      "preamble_lines": 1,
+      "revision_date": "108.6.25"
+    },
+    "mis-ethics-pledge": {
+      "method": "pdf_text",
+      "mode": "item",
+      "units": 2,
+      "preamble_lines": 0,
+      "revision_date": null
+    },
+    "mis-ip-pledge": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 3,
+      "preamble_lines": 0,
+      "revision_date": null
+    },
+    "mis-grad-scholarship": {
+      "method": "pdf_text",
+      "mode": "item",
+      "units": 7,
+      "preamble_lines": 15,
+      "revision_date": "108.9.3"
+    },
+    "mis-thesis-process": {
+      "method": "markdown",
+      "mode": "heading",
+      "units": 6,
+      "revision_date": "2026-11-09"
+    },
+    "mis-master-curriculum-113": {
+      "method": "markdown",
+      "mode": "heading",
+      "units": 8,
+      "revision_date": "2026-11-09"
+    },
+    "nchu-L1-01-xuezhe": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 69,
+      "preamble_lines": 48,
+      "revision_date": "114.12.19"
+    },
+    "nchu-L2-15-master-charter": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 16,
+      "preamble_lines": 19,
+      "revision_date": "112.11.6"
+    },
+    "nchu-L2-01-credit-transfer": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 12,
+      "preamble_lines": 29,
+      "revision_date": "112.11.6"
+    },
+    "nchu-L2-16-master-defense": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 15,
+      "preamble_lines": 23,
+      "revision_date": "115.4.22"
+    },
+    "nchu-L2-21-grad-audit": {
+      "method": "pdf_text",
+      "mode": "item",
+      "units": 4,
+      "preamble_lines": 3,
+      "revision_date": "109.5.5"
+    },
+    "nchu-L2-06-dept-grad-cond": {
+      "method": "pdf_text",
+      "mode": "item",
+      "units": 8,
+      "preamble_lines": 10,
+      "revision_date": "111.11.10"
+    },
+    "nchu-L2-08-english-std": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 7,
+      "preamble_lines": 9,
+      "revision_date": "115.4.22"
+    },
+    "nchu-L2-09-english-rules": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 7,
+      "preamble_lines": 5,
+      "revision_date": "114.11.5"
+    },
+    "nchu-L2-14-early-grad-115": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 4,
+      "preamble_lines": 15,
+      "revision_date": "114.11.5"
+    },
+    "nchu-L2-14-early-grad-old": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 4,
+      "preamble_lines": 14,
+      "revision_date": "113.4.25"
+    },
+    "nchu-L2-17-direct-phd": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 8,
+      "preamble_lines": 6,
+      "revision_date": "114.11.5"
+    },
+    "nchu-L2-23-advisor": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 11,
+      "preamble_lines": 5,
+      "revision_date": "113.11.13"
+    },
+    "nchu-L2-29-thesis-ethics": {
+      "method": "pdf_text",
+      "mode": "item",
+      "units": 12,
+      "preamble_lines": 3,
+      "revision_date": "109.5.5"
+    },
+    "nchu-L2-31-ethics-edu": {
+      "method": "pdf_text",
+      "mode": "item",
+      "units": 5,
+      "preamble_lines": 2,
+      "revision_date": "109.5.5"
+    },
+    "nchu-L3-01-course-select": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 16,
+      "preamble_lines": 40,
+      "revision_date": "113.11.13"
+    },
+    "nchu-L3-02-cross-school": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 9,
+      "preamble_lines": 17,
+      "revision_date": "113.4.25"
+    },
+    "nchu-L2-03-grade-review": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 13,
+      "preamble_lines": 24,
+      "revision_date": "109.5.5"
+    },
+    "nchu-L2-22-exec-master": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 13,
+      "preamble_lines": 8,
+      "revision_date": "103.10.28"
+    },
+    "nchu-L3-03-cross-program": {
+      "method": "pdf_text",
+      "mode": "article",
+      "units": 6,
+      "preamble_lines": 5,
+      "revision_date": "104.10.28"
+    }
+  },
+  "warnings": [],
+  "errors": []
+}

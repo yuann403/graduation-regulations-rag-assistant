@@ -1,0 +1,15 @@
+{"id": "S01", "q": "畢業最少要修幾學分？", "year": 113, "gold": ["grad-req-113#02", "mis-master-curriculum-113#02"], "note": "學年度：113 是 36 學分"}
+{"id": "S02", "q": "外系的學分最多可以承認幾學分？", "year": 114, "gold": ["grad-req-114#05"], "note": "學年度：114 改成 9"}
+{"id": "S03", "q": "外系的課可以算幾學分", "year": 106, "gold": ["grad-req-106#05"], "note": "學年度：106 是 6；口語問法"}
+{"id": "S04", "q": "大四和碩士班合開的課可以算進畢業學分嗎？上限多少", "year": 113, "gold": ["grad-req-113#04", "nchu-L3-01-course-select#04"], "note": "T4 多跳：系規備註 + 校級選課辦法"}
+{"id": "S05", "q": "學術倫理課程要修幾小時？", "year": 110, "gold": ["mis-thesis-process#01"], "note": "條文內自行區分 105/106"}
+{"id": "S06", "q": "論文口試要在考試前幾天提出申請？", "year": null, "gold": ["mis-thesis-process#05", "nchu-L2-16-master-defense#04", "mis-master-rules#07"], "note": "系 30 天 vs 校 20 天"}
+{"id": "S07", "q": "口試委員要幾個人，校外委員要佔多少？", "year": null, "gold": ["nchu-L2-16-master-defense#03", "mis-thesis-process#06"], "note": "口語：口試委員 = 考試委員"}
+{"id": "S08", "q": "多益要考幾分才能畢業", "year": 112, "gold": ["grad-req-111_112#09"], "note": "BM25 要靠「多益」這個詞"}
+{"id": "S09", "q": "最低畢業學分是多少", "year": 113, "program": "碩專班", "gold": ["mis-exec-master-rules#02"], "note": "學制：不能撈到碩士班明細表"}
+{"id": "S10", "q": "提前畢業需要符合什麼條件？", "year": 115, "gold": ["nchu-L2-14-early-grad-115#02"], "note": "校級法規分學年度：115 起新版"}
+{"id": "S11", "q": "提前畢業需要符合什麼條件？", "year": 113, "gold": ["nchu-L2-14-early-grad-old#02"], "note": "同題不同年：舊版"}
+{"id": "S12", "q": "要補修哪些大學部的基礎課？", "year": 115, "gold": ["grad-req-115#07"], "note": "115 多了演算法"}
+{"id": "S13", "q": "Turnitin 比對是誰要做？系辦會幫忙嗎", "year": null, "gold": ["mis-thesis-process#03"], "note": "英文詞 + 錯誤前提"}
+{"id": "S14", "q": "口試完之後多久要辦完離校？", "year": null, "gold": ["mis-thesis-process#09", "mis-thesis-process#17", "nchu-L2-16-master-defense#09"], "note": "流程類"}
+{"id": "S15", "q": "抵免學分要在什麼時候申請？", "year": 113, "gold": ["grad-req-113#03", "nchu-L2-01-credit-transfer#09", "mis-master-rules#05"], "note": "期限：入學當學期加退選截止前 / 註冊日起二週內"}

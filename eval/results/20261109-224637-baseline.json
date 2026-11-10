@@ -1,0 +1,1997 @@
+{
+  "timestamp": "2026-11-09T22:46:37",
+  "tag": "baseline",
+  "k": 5,
+  "retrieval": {
+    "overall": {
+      "n": 42,
+      "hit@5": 0.929,
+      "recall@5": 0.712,
+      "mrr": 0.691,
+      "leaks": 0,
+      "redundant_slots": 6,
+      "secs_per_query": 0.19
+    },
+    "by_type": {
+      "T1": {
+        "n": 11,
+        "hit": 1.0,
+        "recall": 0.727,
+        "mrr": 0.809
+      },
+      "T2": {
+        "n": 14,
+        "hit": 0.857,
+        "recall": 0.714,
+        "mrr": 0.55
+      },
+      "T3": {
+        "n": 6,
+        "hit": 1.0,
+        "recall": 0.736,
+        "mrr": 0.68
+      },
+      "T4": {
+        "n": 7,
+        "hit": 0.857,
+        "recall": 0.548,
+        "mrr": 0.69
+      },
+      "T5": {
+        "n": 4,
+        "hit": 1.0,
+        "recall": 0.917,
+        "mrr": 0.875
+      }
+    },
+    "by_source": {
+      "adversarial": {
+        "n": 7,
+        "hit": 0.714,
+        "recall": 0.5,
+        "mrr": 0.619
+      },
+      "regulation": {
+        "n": 20,
+        "hit": 1.0,
+        "recall": 0.758,
+        "mrr": 0.787
+      },
+      "student_drafted": {
+        "n": 15,
+        "hit": 0.933,
+        "recall": 0.75,
+        "mrr": 0.597
+      }
+    }
+  },
+  "generation": null,
+  "rows": [
+    {
+      "qid": "Q01",
+      "type": "T1",
+      "source": "regulation",
+      "question": "113學年度入學的碩士班，最低畢業學分是多少？",
+      "year": 113,
+      "program": "碩士班",
+      "gold": [
+        "grad-req-113#02",
+        "mis-master-curriculum-113#02"
+      ],
+      "retrieved": [
+        "mis-master-curriculum-113#02",
+        "grad-req-113#02",
+        "grad-req-113#01",
+        "mis-master-curriculum-113#05",
+        "mis-master-curriculum-113#01"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "mis-master-curriculum-113#02": [
+          1,
+          1
+        ],
+        "grad-req-113#02": [
+          2,
+          5
+        ],
+        "grad-req-113#01": [
+          9,
+          3
+        ],
+        "mis-master-curriculum-113#05": [
+          4,
+          8
+        ],
+        "mis-master-curriculum-113#01": [
+          11,
+          2
+        ]
+      }
+    },
+    {
+      "qid": "Q02",
+      "type": "T2",
+      "source": "regulation",
+      "question": "我110入學，畢業總學分要修多少？",
+      "year": 110,
+      "program": "碩士班",
+      "gold": [
+        "grad-req-110#02",
+        "mis-master-rules#02"
+      ],
+      "retrieved": [
+        "grad-req-110#03",
+        "grad-req-110#05",
+        "grad-req-110#02",
+        "grad-req-110#01",
+        "grad-req-110#06"
+      ],
+      "hit": 1,
+      "recall": 0.5,
+      "mrr": 0.333,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "grad-req-110#03": [
+          7,
+          1
+        ],
+        "grad-req-110#05": [
+          6,
+          2
+        ],
+        "grad-req-110#02": [
+          1,
+          11
+        ],
+        "grad-req-110#01": [
+          10,
+          5
+        ],
+        "grad-req-110#06": [
+          2,
+          16
+        ]
+      }
+    },
+    {
+      "qid": "Q03",
+      "type": "T2",
+      "source": "regulation",
+      "question": "115學年度入學要補修哪些大學部課程？",
+      "year": 115,
+      "program": "碩士班",
+      "gold": [
+        "grad-req-115#07"
+      ],
+      "retrieved": [
+        "grad-req-115#07",
+        "nchu-L2-15-master-charter#05",
+        "grad-req-115#03",
+        "grad-req-115#02",
+        "grad-req-115#05"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "grad-req-115#07": [
+          1,
+          1
+        ],
+        "nchu-L2-15-master-charter#05": [
+          4,
+          4
+        ],
+        "grad-req-115#03": [
+          6,
+          3
+        ],
+        "grad-req-115#02": [
+          3,
+          7
+        ],
+        "grad-req-115#05": [
+          9,
+          2
+        ]
+      }
+    },
+    {
+      "qid": "Q04",
+      "type": "T2",
+      "source": "regulation",
+      "question": "114入學的必修課有哪些？",
+      "year": 114,
+      "program": "碩士班",
+      "gold": [
+        "grad-req-114#06"
+      ],
+      "retrieved": [
+        "grad-req-114#02",
+        "grad-req-114#06",
+        "grad-req-114#03",
+        "grad-req-114#05",
+        "grad-req-114#07"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 0.5,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "grad-req-114#02": [
+          2,
+          2
+        ],
+        "grad-req-114#06": [
+          1,
+          5
+        ],
+        "grad-req-114#03": [
+          5,
+          3
+        ],
+        "grad-req-114#05": [
+          6,
+          4
+        ],
+        "grad-req-114#07": [
+          3,
+          11
+        ]
+      }
+    },
+    {
+      "qid": "Q05",
+      "type": "T2",
+      "source": "regulation",
+      "question": "我115入學，除了英檢之外，論文考試申請前還有什麼檢定要過？",
+      "year": 115,
+      "program": "碩士班",
+      "gold": [
+        "grad-req-115#09"
+      ],
+      "retrieved": [
+        "mis-thesis-process#02",
+        "grad-req-115#09",
+        "grad-req-115#08",
+        "nchu-L2-09-english-rules#05",
+        "nchu-L2-09-english-rules#04"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 0.5,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "mis-thesis-process#02": [
+          2,
+          5
+        ],
+        "grad-req-115#09": [
+          1,
+          8
+        ],
+        "grad-req-115#08": [
+          3,
+          6
+        ],
+        "nchu-L2-09-english-rules#05": [
+          12,
+          2
+        ],
+        "nchu-L2-09-english-rules#04": [
+          17,
+          1
+        ]
+      }
+    },
+    {
+      "qid": "Q06",
+      "type": "T1",
+      "source": "regulation",
+      "question": "碩士班最多可以讀幾年？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "mis-master-rules#03",
+        "nchu-L2-15-master-charter#06"
+      ],
+      "retrieved": [
+        "grad-req-108#01",
+        "nchu-L3-02-cross-school#03",
+        "grad-req-110#01",
+        "grad-req-103#06",
+        "grad-req-107#01"
+      ],
+      "hit": 1,
+      "recall": 0.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 1,
+      "dense_bm25_ranks": {
+        "grad-req-108#01": [
+          1,
+          null
+        ],
+        "nchu-L3-02-cross-school#03": [
+          null,
+          1
+        ],
+        "grad-req-110#01": [
+          2,
+          null
+        ],
+        "grad-req-103#06": [
+          null,
+          2
+        ],
+        "grad-req-107#01": [
+          3,
+          null
+        ]
+      }
+    },
+    {
+      "qid": "Q07",
+      "type": "T1",
+      "source": "regulation",
+      "question": "碩士論文口試幾分算及格？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "nchu-L2-16-master-defense#08",
+        "mis-thesis-process#12",
+        "mis-master-rules#07"
+      ],
+      "retrieved": [
+        "grad-req-102#08",
+        "grad-req-103#08",
+        "grad-req-101#08",
+        "grad-req-115#08",
+        "grad-req-110#08"
+      ],
+      "hit": 1,
+      "recall": 0.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 3,
+      "dense_bm25_ranks": {
+        "grad-req-102#08": [
+          3,
+          6
+        ],
+        "grad-req-103#08": [
+          5,
+          5
+        ],
+        "grad-req-101#08": [
+          4,
+          7
+        ],
+        "grad-req-115#08": [
+          8,
+          12
+        ],
+        "grad-req-110#08": [
+          13,
+          15
+        ]
+      }
+    },
+    {
+      "qid": "Q08",
+      "type": "T1",
+      "source": "regulation",
+      "question": "論文考試沒過可以重考嗎？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "nchu-L2-16-master-defense#09",
+        "mis-master-rules#08"
+      ],
+      "retrieved": [
+        "grad-req-102#08",
+        "grad-req-101#08",
+        "mis-thesis-process#22",
+        "grad-req-115#08",
+        "mis-master-rules#08"
+      ],
+      "hit": 1,
+      "recall": 0.5,
+      "mrr": 0.2,
+      "leak": [],
+      "redundant": 1,
+      "dense_bm25_ranks": {
+        "grad-req-102#08": [
+          11,
+          2
+        ],
+        "grad-req-101#08": [
+          12,
+          3
+        ],
+        "mis-thesis-process#22": [
+          2,
+          16
+        ],
+        "grad-req-115#08": [
+          14,
+          4
+        ],
+        "mis-master-rules#08": [
+          5,
+          14
+        ]
+      }
+    },
+    {
+      "qid": "Q09",
+      "type": "T4",
+      "source": "regulation",
+      "question": "指導教授最晚什麼時候要找好？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "mis-master-rules#06",
+        "nchu-L2-15-master-charter#03"
+      ],
+      "retrieved": [
+        "mis-master-rules#06",
+        "nchu-L2-15-master-charter#03",
+        "nchu-L2-23-advisor#02",
+        "nchu-L2-23-advisor#04",
+        "nchu-L2-23-advisor#06"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "mis-master-rules#06": [
+          1,
+          2
+        ],
+        "nchu-L2-15-master-charter#03": [
+          2,
+          5
+        ],
+        "nchu-L2-23-advisor#02": [
+          3,
+          7
+        ],
+        "nchu-L2-23-advisor#04": [
+          7,
+          3
+        ],
+        "nchu-L2-23-advisor#06": [
+          4,
+          6
+        ]
+      }
+    },
+    {
+      "qid": "Q10",
+      "type": "T1",
+      "source": "regulation",
+      "question": "指導教授可以找兩位嗎？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "mis-master-rules#06"
+      ],
+      "retrieved": [
+        "nchu-L2-23-advisor#10",
+        "mis-master-rules#06",
+        "nchu-L2-15-master-charter#03",
+        "nchu-L2-23-advisor#03",
+        "nchu-L2-23-advisor#04"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 0.5,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "nchu-L2-23-advisor#10": [
+          1,
+          1
+        ],
+        "mis-master-rules#06": [
+          2,
+          3
+        ],
+        "nchu-L2-15-master-charter#03": [
+          4,
+          5
+        ],
+        "nchu-L2-23-advisor#03": [
+          3,
+          8
+        ],
+        "nchu-L2-23-advisor#04": [
+          8,
+          4
+        ]
+      }
+    },
+    {
+      "qid": "Q11",
+      "type": "T3",
+      "source": "regulation",
+      "question": "想換指導教授要怎麼辦？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "mis-master-rules#06",
+        "nchu-L2-23-advisor#04"
+      ],
+      "retrieved": [
+        "nchu-L2-23-advisor#04",
+        "mis-master-rules#06",
+        "nchu-L2-23-advisor#02",
+        "nchu-L2-23-advisor#06",
+        "nchu-L2-23-advisor#03"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "nchu-L2-23-advisor#04": [
+          2,
+          3
+        ],
+        "mis-master-rules#06": [
+          3,
+          2
+        ],
+        "nchu-L2-23-advisor#02": [
+          8,
+          1
+        ],
+        "nchu-L2-23-advisor#06": [
+          1,
+          9
+        ],
+        "nchu-L2-23-advisor#03": [
+          4,
+          10
+        ]
+      }
+    },
+    {
+      "qid": "Q12",
+      "type": "T4",
+      "source": "regulation",
+      "question": "我113入學，修大學部的課可以算畢業學分嗎？最多幾學分？",
+      "year": 113,
+      "program": "碩士班",
+      "gold": [
+        "grad-req-113#04",
+        "nchu-L3-01-course-select#04"
+      ],
+      "retrieved": [
+        "grad-req-113#04",
+        "mis-master-curriculum-113#04",
+        "mis-master-curriculum-113#06",
+        "mis-master-curriculum-113#05",
+        "grad-req-113#03"
+      ],
+      "hit": 1,
+      "recall": 0.5,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "grad-req-113#04": [
+          4,
+          3
+        ],
+        "mis-master-curriculum-113#04": [
+          7,
+          2
+        ],
+        "mis-master-curriculum-113#06": [
+          5,
+          6
+        ],
+        "mis-master-curriculum-113#05": [
+          3,
+          9
+        ],
+        "grad-req-113#03": [
+          11,
+          4
+        ]
+      }
+    },
+    {
+      "qid": "Q13",
+      "type": "T4",
+      "source": "regulation",
+      "question": "115入學的話，進階課程最多可以採計幾學分？",
+      "year": 115,
+      "program": "碩士班",
+      "gold": [
+        "grad-req-115#04",
+        "nchu-L3-01-course-select#04"
+      ],
+      "retrieved": [
+        "grad-req-115#05",
+        "grad-req-115#04",
+        "grad-req-115#06",
+        "grad-req-115#02",
+        "grad-req-115#03"
+      ],
+      "hit": 1,
+      "recall": 0.5,
+      "mrr": 0.5,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "grad-req-115#05": [
+          1,
+          1
+        ],
+        "grad-req-115#04": [
+          3,
+          2
+        ],
+        "grad-req-115#06": [
+          4,
+          4
+        ],
+        "grad-req-115#02": [
+          2,
+          10
+        ],
+        "grad-req-115#03": [
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "qid": "Q14",
+      "type": "T1",
+      "source": "regulation",
+      "question": "口試委員有什麼資格限制？我女朋友是助理教授可以當嗎？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "nchu-L2-16-master-defense#03",
+        "mis-thesis-process#06"
+      ],
+      "retrieved": [
+        "mis-thesis-process#06",
+        "nchu-L2-16-master-defense#03",
+        "nchu-L2-16-master-defense#06",
+        "nchu-L2-15-master-charter#03",
+        "mis-thesis-process#11"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "mis-thesis-process#06": [
+          2,
+          1
+        ],
+        "nchu-L2-16-master-defense#03": [
+          1,
+          4
+        ],
+        "nchu-L2-16-master-defense#06": [
+          3,
+          2
+        ],
+        "nchu-L2-15-master-charter#03": [
+          8,
+          3
+        ],
+        "mis-thesis-process#11": [
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "qid": "Q15",
+      "type": "T1",
+      "source": "regulation",
+      "question": "以前修過的研究所課程，成績要幾分以上才能抵免？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "nchu-L2-01-credit-transfer#04"
+      ],
+      "retrieved": [
+        "grad-req-101#03",
+        "grad-req-102#03",
+        "grad-req-103#03",
+        "grad-req-115#03",
+        "nchu-L2-01-credit-transfer#04"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 0.2,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "grad-req-101#03": [
+          3,
+          5
+        ],
+        "grad-req-102#03": [
+          2,
+          19
+        ],
+        "grad-req-103#03": [
+          4,
+          18
+        ],
+        "grad-req-115#03": [
+          6,
+          20
+        ],
+        "nchu-L2-01-credit-transfer#04": [
+          1,
+          null
+        ]
+      }
+    },
+    {
+      "qid": "Q16",
+      "type": "T4",
+      "source": "regulation",
+      "question": "113入學的碩士新生，最多可以抵免幾學分？",
+      "year": 113,
+      "program": "碩士班",
+      "gold": [
+        "nchu-L2-01-credit-transfer#05",
+        "grad-req-113#03"
+      ],
+      "retrieved": [
+        "grad-req-113#03",
+        "grad-req-113#05",
+        "mis-master-curriculum-113#03",
+        "mis-master-curriculum-113#05",
+        "nchu-L2-01-credit-transfer#05"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "grad-req-113#03": [
+          1,
+          4
+        ],
+        "grad-req-113#05": [
+          6,
+          1
+        ],
+        "mis-master-curriculum-113#03": [
+          2,
+          5
+        ],
+        "mis-master-curriculum-113#05": [
+          7,
+          2
+        ],
+        "nchu-L2-01-credit-transfer#05": [
+          3,
+          8
+        ]
+      }
+    },
+    {
+      "qid": "Q17",
+      "type": "T1",
+      "source": "regulation",
+      "question": "提前畢業要在什麼時候申請？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "nchu-L2-14-early-grad-115#03",
+        "nchu-L2-14-early-grad-old#03"
+      ],
+      "retrieved": [
+        "nchu-L2-14-early-grad-old#03",
+        "nchu-L2-14-early-grad-115#03",
+        "nchu-L2-14-early-grad-115#02",
+        "nchu-L2-14-early-grad-old#02",
+        "nchu-L1-01-xuezhe#63"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 1,
+      "dense_bm25_ranks": {
+        "nchu-L2-14-early-grad-old#03": [
+          1,
+          2
+        ],
+        "nchu-L2-14-early-grad-115#03": [
+          2,
+          1
+        ],
+        "nchu-L2-14-early-grad-115#02": [
+          3,
+          4
+        ],
+        "nchu-L2-14-early-grad-old#02": [
+          4,
+          3
+        ],
+        "nchu-L1-01-xuezhe#63": [
+          7,
+          5
+        ]
+      }
+    },
+    {
+      "qid": "Q18",
+      "type": "T1",
+      "source": "regulation",
+      "question": "系上的研究生獎學金有哪幾種？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "mis-grad-scholarship#03",
+        "mis-grad-scholarship#02"
+      ],
+      "retrieved": [
+        "mis-grad-scholarship#02",
+        "mis-grad-scholarship#03",
+        "nchu-L2-15-master-charter#15",
+        "grad-req-107#04",
+        "grad-req-111_112#04"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "mis-grad-scholarship#02": [
+          1,
+          1
+        ],
+        "mis-grad-scholarship#03": [
+          3,
+          2
+        ],
+        "nchu-L2-15-master-charter#15": [
+          8,
+          11
+        ],
+        "grad-req-107#04": [
+          13,
+          17
+        ],
+        "grad-req-111_112#04": [
+          20,
+          19
+        ]
+      }
+    },
+    {
+      "qid": "Q19",
+      "type": "T1",
+      "source": "regulation",
+      "question": "碩士班可以直接逕讀博士嗎？要什麼條件？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "nchu-L2-17-direct-phd#02",
+        "nchu-L2-17-direct-phd#03"
+      ],
+      "retrieved": [
+        "nchu-L2-17-direct-phd#03",
+        "nchu-L1-01-xuezhe#08",
+        "nchu-L2-17-direct-phd#06",
+        "nchu-L2-06-dept-grad-cond#05",
+        "nchu-L2-17-direct-phd#04"
+      ],
+      "hit": 1,
+      "recall": 0.5,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "nchu-L2-17-direct-phd#03": [
+          2,
+          2
+        ],
+        "nchu-L1-01-xuezhe#08": [
+          7,
+          1
+        ],
+        "nchu-L2-17-direct-phd#06": [
+          3,
+          11
+        ],
+        "nchu-L2-06-dept-grad-cond#05": [
+          14,
+          4
+        ],
+        "nchu-L2-17-direct-phd#04": [
+          6,
+          17
+        ]
+      }
+    },
+    {
+      "qid": "Q20",
+      "type": "T5",
+      "source": "regulation",
+      "question": "論文要印幾本、交給誰？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "mis-thesis-process#19",
+        "mis-master-rules#08",
+        "nchu-L2-16-master-defense#14"
+      ],
+      "retrieved": [
+        "mis-thesis-process#19",
+        "mis-thesis-process#16",
+        "mis-thesis-process#06",
+        "nchu-L2-16-master-defense#14",
+        "mis-thesis-process#22"
+      ],
+      "hit": 1,
+      "recall": 0.667,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "mis-thesis-process#19": [
+          1,
+          null
+        ],
+        "mis-thesis-process#16": [
+          2,
+          null
+        ],
+        "mis-thesis-process#06": [
+          3,
+          null
+        ],
+        "nchu-L2-16-master-defense#14": [
+          4,
+          null
+        ],
+        "mis-thesis-process#22": [
+          5,
+          null
+        ]
+      }
+    },
+    {
+      "qid": "Q21",
+      "type": "T3",
+      "source": "student_drafted",
+      "question": "我112入學，下學期想口試，現在開始要準備什麼？",
+      "year": 112,
+      "program": "碩士班",
+      "gold": [
+        "mis-thesis-process#01",
+        "mis-thesis-process#02",
+        "mis-thesis-process#03",
+        "mis-thesis-process#05"
+      ],
+      "retrieved": [
+        "grad-req-111_112#03",
+        "grad-req-111_112#05",
+        "grad-req-111_112#02",
+        "mis-thesis-process#02",
+        "nchu-L1-01-xuezhe#48"
+      ],
+      "hit": 1,
+      "recall": 0.25,
+      "mrr": 0.25,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "grad-req-111_112#03": [
+          9,
+          2
+        ],
+        "grad-req-111_112#05": [
+          12,
+          1
+        ],
+        "grad-req-111_112#02": [
+          7,
+          9
+        ],
+        "mis-thesis-process#02": [
+          3,
+          14
+        ],
+        "nchu-L1-01-xuezhe#48": [
+          13,
+          5
+        ]
+      }
+    },
+    {
+      "qid": "Q22",
+      "type": "T5",
+      "source": "student_drafted",
+      "question": "論文考試申請書要交給誰？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "mis-thesis-process#05",
+        "mis-thesis-process#08"
+      ],
+      "retrieved": [
+        "mis-thesis-process#05",
+        "mis-thesis-process#14",
+        "mis-thesis-process#08",
+        "mis-thesis-process#02",
+        "mis-thesis-process#04"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "mis-thesis-process#05": [
+          1,
+          1
+        ],
+        "mis-thesis-process#14": [
+          6,
+          4
+        ],
+        "mis-thesis-process#08": [
+          7,
+          5
+        ],
+        "mis-thesis-process#02": [
+          14,
+          2
+        ],
+        "mis-thesis-process#04": [
+          10,
+          7
+        ]
+      }
+    },
+    {
+      "qid": "Q23",
+      "type": "T5",
+      "source": "student_drafted",
+      "question": "口試結束當天要交哪些東西給系辦？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "mis-thesis-process#16"
+      ],
+      "retrieved": [
+        "mis-thesis-process#11",
+        "mis-thesis-process#16",
+        "mis-thesis-process#15",
+        "nchu-L2-16-master-defense#06",
+        "mis-thesis-process#12"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 0.5,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "mis-thesis-process#11": [
+          2,
+          1
+        ],
+        "mis-thesis-process#16": [
+          1,
+          3
+        ],
+        "mis-thesis-process#15": [
+          4,
+          2
+        ],
+        "nchu-L2-16-master-defense#06": [
+          3,
+          6
+        ],
+        "mis-thesis-process#12": [
+          6,
+          4
+        ]
+      }
+    },
+    {
+      "qid": "Q24",
+      "type": "T3",
+      "source": "student_drafted",
+      "question": "畢業離校手續要怎麼跑？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "mis-thesis-process#17",
+        "mis-thesis-process#18",
+        "mis-thesis-process#19"
+      ],
+      "retrieved": [
+        "mis-thesis-process#20",
+        "mis-thesis-process#18",
+        "mis-thesis-process#17",
+        "mis-thesis-process#21",
+        "nchu-L2-16-master-defense#09"
+      ],
+      "hit": 1,
+      "recall": 0.667,
+      "mrr": 0.5,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "mis-thesis-process#20": [
+          3,
+          1
+        ],
+        "mis-thesis-process#18": [
+          2,
+          2
+        ],
+        "mis-thesis-process#17": [
+          1,
+          4
+        ],
+        "mis-thesis-process#21": [
+          5,
+          3
+        ],
+        "nchu-L2-16-master-defense#09": [
+          4,
+          6
+        ]
+      }
+    },
+    {
+      "qid": "Q25",
+      "type": "T2",
+      "source": "student_drafted",
+      "question": "我六月口試，可是八月底前來不及離校，怎麼辦？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "mis-thesis-process#17",
+        "mis-thesis-process#09"
+      ],
+      "retrieved": [
+        "nchu-L2-16-master-defense#09",
+        "nchu-L2-01-credit-transfer#09",
+        "mis-thesis-process#11",
+        "mis-master-rules#08",
+        "nchu-L2-16-master-defense#06"
+      ],
+      "hit": 0,
+      "recall": 0.0,
+      "mrr": 0.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "nchu-L2-16-master-defense#09": [
+          1,
+          1
+        ],
+        "nchu-L2-01-credit-transfer#09": [
+          7,
+          3
+        ],
+        "mis-thesis-process#11": [
+          6,
+          5
+        ],
+        "mis-master-rules#08": [
+          10,
+          2
+        ],
+        "nchu-L2-16-master-defense#06": [
+          9,
+          4
+        ]
+      }
+    },
+    {
+      "qid": "Q26",
+      "type": "T1",
+      "source": "student_drafted",
+      "question": "畢業證書上的畢業日期是怎麼算的？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "mis-thesis-process#20",
+        "nchu-L2-16-master-defense#09"
+      ],
+      "retrieved": [
+        "mis-thesis-process#20",
+        "nchu-L2-16-master-defense#09",
+        "nchu-L1-01-xuezhe#65",
+        "nchu-L2-06-dept-grad-cond#07",
+        "nchu-L2-21-grad-audit#03"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "mis-thesis-process#20": [
+          1,
+          1
+        ],
+        "nchu-L2-16-master-defense#09": [
+          2,
+          2
+        ],
+        "nchu-L1-01-xuezhe#65": [
+          3,
+          6
+        ],
+        "nchu-L2-06-dept-grad-cond#07": [
+          12,
+          4
+        ],
+        "nchu-L2-21-grad-audit#03": [
+          6,
+          15
+        ]
+      }
+    },
+    {
+      "qid": "Q27",
+      "type": "T3",
+      "source": "student_drafted",
+      "question": "口試時間排好了但臨時要取消，要怎麼處理？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "mis-thesis-process#13",
+        "nchu-L2-16-master-defense#10"
+      ],
+      "retrieved": [
+        "nchu-L2-16-master-defense#06",
+        "nchu-L2-16-master-defense#07",
+        "nchu-L2-16-master-defense#10",
+        "mis-thesis-process#11",
+        "mis-thesis-process#13"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 0.333,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "nchu-L2-16-master-defense#06": [
+          2,
+          3
+        ],
+        "nchu-L2-16-master-defense#07": [
+          4,
+          2
+        ],
+        "nchu-L2-16-master-defense#10": [
+          1,
+          6
+        ],
+        "mis-thesis-process#11": [
+          5,
+          4
+        ],
+        "mis-thesis-process#13": [
+          3,
+          7
+        ]
+      }
+    },
+    {
+      "qid": "Q28",
+      "type": "T2",
+      "source": "student_drafted",
+      "question": "我112入學，英檢只要畢業前通過就好了吧？",
+      "year": 112,
+      "program": "碩士班",
+      "gold": [
+        "grad-req-111_112#09",
+        "mis-thesis-process#02"
+      ],
+      "retrieved": [
+        "nchu-L2-09-english-rules#05",
+        "nchu-L2-09-english-rules#04",
+        "nchu-L2-09-english-rules#03",
+        "grad-req-111_112#05",
+        "grad-req-111_112#09"
+      ],
+      "hit": 1,
+      "recall": 0.5,
+      "mrr": 0.2,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "nchu-L2-09-english-rules#05": [
+          4,
+          3
+        ],
+        "nchu-L2-09-english-rules#04": [
+          6,
+          2
+        ],
+        "nchu-L2-09-english-rules#03": [
+          8,
+          1
+        ],
+        "grad-req-111_112#05": [
+          10,
+          4
+        ],
+        "grad-req-111_112#09": [
+          1,
+          16
+        ]
+      }
+    },
+    {
+      "qid": "Q29",
+      "type": "T2",
+      "source": "student_drafted",
+      "question": "我113入學，修一門全英文授課的課可以抵英檢嗎？那門課算畢業學分嗎？",
+      "year": 113,
+      "program": "碩士班",
+      "gold": [
+        "grad-req-113#09",
+        "mis-master-curriculum-113#07"
+      ],
+      "retrieved": [
+        "mis-master-curriculum-113#07",
+        "nchu-L2-09-english-rules#05",
+        "grad-req-113#09",
+        "nchu-L2-09-english-rules#03",
+        "mis-master-curriculum-113#03"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "mis-master-curriculum-113#07": [
+          1,
+          2
+        ],
+        "nchu-L2-09-english-rules#05": [
+          2,
+          3
+        ],
+        "grad-req-113#09": [
+          3,
+          6
+        ],
+        "nchu-L2-09-english-rules#03": [
+          5,
+          5
+        ],
+        "mis-master-curriculum-113#03": [
+          6,
+          11
+        ]
+      }
+    },
+    {
+      "qid": "Q30",
+      "type": "T2",
+      "source": "student_drafted",
+      "question": "我110入學，學術倫理要修幾小時？",
+      "year": 110,
+      "program": "碩士班",
+      "gold": [
+        "mis-thesis-process#01"
+      ],
+      "retrieved": [
+        "nchu-L2-29-thesis-ethics#05",
+        "grad-req-110#05",
+        "mis-thesis-process#01",
+        "grad-req-110#01",
+        "nchu-L2-29-thesis-ethics#04"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 0.333,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "nchu-L2-29-thesis-ethics#05": [
+          2,
+          2
+        ],
+        "grad-req-110#05": [
+          9,
+          3
+        ],
+        "mis-thesis-process#01": [
+          1,
+          13
+        ],
+        "grad-req-110#01": [
+          7,
+          7
+        ],
+        "nchu-L2-29-thesis-ethics#04": [
+          13,
+          5
+        ]
+      }
+    },
+    {
+      "qid": "Q31",
+      "type": "T5",
+      "source": "student_drafted",
+      "question": "Turnitin 帳號要跟誰拿？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "mis-thesis-process#03"
+      ],
+      "retrieved": [
+        "mis-thesis-process#03",
+        "nchu-L1-01-xuezhe#31",
+        "mis-ip-pledge#02",
+        "nchu-L1-01-xuezhe#21",
+        "nchu-L3-02-cross-school#06"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "mis-thesis-process#03": [
+          1,
+          1
+        ],
+        "nchu-L1-01-xuezhe#31": [
+          2,
+          null
+        ],
+        "mis-ip-pledge#02": [
+          null,
+          2
+        ],
+        "nchu-L1-01-xuezhe#21": [
+          3,
+          null
+        ],
+        "nchu-L3-02-cross-school#06": [
+          4,
+          null
+        ]
+      }
+    },
+    {
+      "qid": "Q32",
+      "type": "T3",
+      "source": "student_drafted",
+      "question": "我的論文想延後公開，要什麼時候申請？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "mis-thesis-process#07",
+        "mis-thesis-process#14"
+      ],
+      "retrieved": [
+        "mis-thesis-process#07",
+        "mis-thesis-process#14",
+        "mis-thesis-process#05",
+        "mis-thesis-process#02",
+        "nchu-L2-14-early-grad-115#02"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "mis-thesis-process#07": [
+          1,
+          2
+        ],
+        "mis-thesis-process#14": [
+          2,
+          1
+        ],
+        "mis-thesis-process#05": [
+          3,
+          5
+        ],
+        "mis-thesis-process#02": [
+          18,
+          6
+        ],
+        "nchu-L2-14-early-grad-115#02": [
+          11,
+          15
+        ]
+      }
+    },
+    {
+      "qid": "Q33",
+      "type": "T2",
+      "source": "student_drafted",
+      "question": "我114入學，可以修管理學院的「策略管理」代替系上的必修嗎？",
+      "year": 114,
+      "program": "碩士班",
+      "gold": [
+        "grad-req-114#06"
+      ],
+      "retrieved": [
+        "grad-req-114#06",
+        "grad-req-114#07",
+        "grad-req-114#02",
+        "grad-req-114#03",
+        "mis-master-rules#05"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "grad-req-114#06": [
+          1,
+          1
+        ],
+        "grad-req-114#07": [
+          4,
+          7
+        ],
+        "grad-req-114#02": [
+          3,
+          11
+        ],
+        "grad-req-114#03": [
+          2,
+          15
+        ],
+        "mis-master-rules#05": [
+          11,
+          6
+        ]
+      }
+    },
+    {
+      "qid": "Q34",
+      "type": "T4",
+      "source": "student_drafted",
+      "question": "我113入學，想去台大修課，可以嗎？最多修幾學分？",
+      "year": 113,
+      "program": "碩士班",
+      "gold": [
+        "nchu-L3-02-cross-school#03",
+        "nchu-L3-02-cross-school#02",
+        "grad-req-113#05"
+      ],
+      "retrieved": [
+        "mis-master-curriculum-113#03",
+        "mis-master-curriculum-113#05",
+        "nchu-L3-02-cross-school#03",
+        "mis-master-curriculum-113#02",
+        "grad-req-113#03"
+      ],
+      "hit": 1,
+      "recall": 0.333,
+      "mrr": 0.333,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "mis-master-curriculum-113#03": [
+          4,
+          3
+        ],
+        "mis-master-curriculum-113#05": [
+          3,
+          5
+        ],
+        "nchu-L3-02-cross-school#03": [
+          6,
+          7
+        ],
+        "mis-master-curriculum-113#02": [
+          2,
+          13
+        ],
+        "grad-req-113#03": [
+          15,
+          2
+        ]
+      }
+    },
+    {
+      "qid": "Q35",
+      "type": "T2",
+      "source": "student_drafted",
+      "question": "碩士班學生可以修碩專班的課嗎？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "nchu-L3-03-cross-program#02",
+        "nchu-L3-03-cross-program#04"
+      ],
+      "retrieved": [
+        "nchu-L3-03-cross-program#05",
+        "nchu-L3-03-cross-program#02",
+        "nchu-L2-15-master-charter#05",
+        "nchu-L2-15-master-charter#04",
+        "nchu-L3-01-course-select#04"
+      ],
+      "hit": 1,
+      "recall": 0.5,
+      "mrr": 0.5,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "nchu-L3-03-cross-program#05": [
+          6,
+          1
+        ],
+        "nchu-L3-03-cross-program#02": [
+          7,
+          3
+        ],
+        "nchu-L2-15-master-charter#05": [
+          5,
+          13
+        ],
+        "nchu-L2-15-master-charter#04": [
+          1,
+          null
+        ],
+        "nchu-L3-01-course-select#04": [
+          2,
+          null
+        ]
+      }
+    },
+    {
+      "qid": "Q38",
+      "type": "T2",
+      "source": "adversarial",
+      "question": "我是碩專班的，外系學分可以承認幾學分？",
+      "year": 113,
+      "program": "碩專班",
+      "gold": [
+        "mis-exec-master-rules#04"
+      ],
+      "retrieved": [
+        "nchu-L2-22-exec-master#08",
+        "nchu-L3-03-cross-program#05",
+        "nchu-L3-02-cross-school#03",
+        "mis-thesis-process#02",
+        "nchu-L1-01-xuezhe#15"
+      ],
+      "hit": 0,
+      "recall": 0.0,
+      "mrr": 0.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "nchu-L2-22-exec-master#08": [
+          1,
+          null
+        ],
+        "nchu-L3-03-cross-program#05": [
+          null,
+          1
+        ],
+        "nchu-L3-02-cross-school#03": [
+          2,
+          null
+        ],
+        "mis-thesis-process#02": [
+          null,
+          2
+        ],
+        "nchu-L1-01-xuezhe#15": [
+          3,
+          null
+        ]
+      }
+    },
+    {
+      "qid": "Q39",
+      "type": "T2",
+      "source": "adversarial",
+      "question": "碩專班也要考英檢才能畢業嗎？",
+      "year": 113,
+      "program": "碩專班",
+      "gold": [
+        "mis-exec-master-rules#04",
+        "mis-thesis-process#02"
+      ],
+      "retrieved": [
+        "nchu-L2-09-english-rules#03",
+        "nchu-L2-09-english-rules#05",
+        "mis-thesis-process#02",
+        "nchu-L2-09-english-rules#04",
+        "nchu-L2-08-english-std#04"
+      ],
+      "hit": 1,
+      "recall": 0.5,
+      "mrr": 0.333,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "nchu-L2-09-english-rules#03": [
+          1,
+          2
+        ],
+        "nchu-L2-09-english-rules#05": [
+          4,
+          3
+        ],
+        "mis-thesis-process#02": [
+          8,
+          1
+        ],
+        "nchu-L2-09-english-rules#04": [
+          5,
+          4
+        ],
+        "nchu-L2-08-english-std#04": [
+          6,
+          16
+        ]
+      }
+    },
+    {
+      "qid": "Q40",
+      "type": "T3",
+      "source": "adversarial",
+      "question": "Turnitin 口試完再做就好了對吧？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "mis-thesis-process#03",
+        "nchu-L2-16-master-defense#05"
+      ],
+      "retrieved": [
+        "mis-thesis-process#03",
+        "nchu-L2-16-master-defense#06",
+        "mis-thesis-process#11",
+        "mis-thesis-process#15",
+        "nchu-L2-16-master-defense#07"
+      ],
+      "hit": 1,
+      "recall": 0.5,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "mis-thesis-process#03": [
+          1,
+          1
+        ],
+        "nchu-L2-16-master-defense#06": [
+          2,
+          2
+        ],
+        "mis-thesis-process#11": [
+          3,
+          3
+        ],
+        "mis-thesis-process#15": [
+          6,
+          5
+        ],
+        "nchu-L2-16-master-defense#07": [
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "qid": "Q41",
+      "type": "T4",
+      "source": "adversarial",
+      "question": "學校規定口試前20天申請就好，所以我口試前三週再跟系辦講應該來得及吧？",
+      "year": null,
+      "program": "碩士班",
+      "gold": [
+        "mis-thesis-process#05",
+        "mis-master-rules#07"
+      ],
+      "retrieved": [
+        "mis-thesis-process#05",
+        "mis-thesis-process#13",
+        "mis-thesis-process#11",
+        "mis-thesis-process#12",
+        "mis-thesis-process#22"
+      ],
+      "hit": 1,
+      "recall": 0.5,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "mis-thesis-process#05": [
+          2,
+          1
+        ],
+        "mis-thesis-process#13": [
+          5,
+          7
+        ],
+        "mis-thesis-process#11": [
+          1,
+          16
+        ],
+        "mis-thesis-process#12": [
+          16,
+          3
+        ],
+        "mis-thesis-process#22": [
+          null,
+          2
+        ]
+      }
+    },
+    {
+      "qid": "Q43",
+      "type": "T2",
+      "source": "adversarial",
+      "question": "我114入學，承認外系學分是6學分對嗎？",
+      "year": 114,
+      "program": "碩士班",
+      "gold": [
+        "grad-req-114#05"
+      ],
+      "retrieved": [
+        "grad-req-114#05",
+        "grad-req-114#06",
+        "grad-req-114#02",
+        "grad-req-114#07",
+        "grad-req-114#03"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "grad-req-114#05": [
+          1,
+          1
+        ],
+        "grad-req-114#06": [
+          2,
+          3
+        ],
+        "grad-req-114#02": [
+          3,
+          4
+        ],
+        "grad-req-114#07": [
+          4,
+          6
+        ],
+        "grad-req-114#03": [
+          7,
+          5
+        ]
+      }
+    },
+    {
+      "qid": "Q44",
+      "type": "T2",
+      "source": "adversarial",
+      "question": "我106入學，外系課可以抵幾學分？",
+      "year": 106,
+      "program": "碩士班",
+      "gold": [
+        "grad-req-106#05"
+      ],
+      "retrieved": [
+        "grad-req-106#05",
+        "grad-req-106#03",
+        "grad-req-106#02",
+        "grad-req-106#06",
+        "grad-req-106#04"
+      ],
+      "hit": 1,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "grad-req-106#05": [
+          1,
+          1
+        ],
+        "grad-req-106#03": [
+          3,
+          2
+        ],
+        "grad-req-106#02": [
+          4,
+          11
+        ],
+        "grad-req-106#06": [
+          5,
+          10
+        ],
+        "grad-req-106#04": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "qid": "Q45",
+      "type": "T4",
+      "source": "adversarial",
+      "question": "選課辦法說修大學部的課可以算6學分，所以我113入學可以算到6學分吧？",
+      "year": 113,
+      "program": "碩士班",
+      "gold": [
+        "grad-req-113#04",
+        "nchu-L3-01-course-select#04"
+      ],
+      "retrieved": [
+        "mis-master-curriculum-113#05",
+        "mis-master-curriculum-113#06",
+        "mis-master-curriculum-113#02",
+        "grad-req-113#06",
+        "grad-req-113#05"
+      ],
+      "hit": 0,
+      "recall": 0.0,
+      "mrr": 0.0,
+      "leak": [],
+      "redundant": 0,
+      "dense_bm25_ranks": {
+        "mis-master-curriculum-113#05": [
+          1,
+          2
+        ],
+        "mis-master-curriculum-113#06": [
+          2,
+          5
+        ],
+        "mis-master-curriculum-113#02": [
+          7,
+          1
+        ],
+        "grad-req-113#06": [
+          3,
+          6
+        ],
+        "grad-req-113#05": [
+          6,
+          3
+        ]
+      }
+    }
+  ]
+}

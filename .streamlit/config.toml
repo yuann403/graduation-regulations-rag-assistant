@@ -1,0 +1,7 @@
+# 只在本機開放：Streamlit 預設綁 0.0.0.0，同網段甚至外網都連得到（也就能用你的本機模型）
+[server]
+address = "localhost"
+port = 8501
+
+[browser]
+gatherUsageStats = false

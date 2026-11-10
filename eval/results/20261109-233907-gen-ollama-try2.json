@@ -1,0 +1,177 @@
+{
+  "timestamp": "2026-11-09T23:39:07",
+  "tag": "ollama-try2",
+  "retrieval": null,
+  "generation": {
+    "n": 4,
+    "生成": "ollama / qwen2.5:7b",
+    "評分": "none",
+    "已評分題數": 0,
+    "要點涵蓋率": null,
+    "窗口正確率": null,
+    "適當拒答率": null,
+    "幻覺數": 0,
+    "行為正確率": null,
+    "行為正確率_by": {},
+    "tokens": {
+      "input": 9634,
+      "output": 357
+    },
+    "Claude花費_USD": 0.0,
+    "秒": 96,
+    "秒_每題": 24.0
+  },
+  "rows": [
+    {
+      "qid": "Q12",
+      "type": "T4",
+      "source": "regulation",
+      "question": "我113入學，修大學部的課可以算畢業學分嗎？最多幾學分？",
+      "expected_behavior": "answer",
+      "status": "answer",
+      "year": 113,
+      "program": "碩士班",
+      "answer": "## 結論\n您可以修讀大學部相關課程並將其計入研究所畢業學分，但最多只能計入3學分。\n\n## 依據\n根據【文件】碩士班修業規定(113學年度起入學適用)｜系級 [1][2]，研究生每學期應修學科學分由指導教授或系、所、學位學程主管核定之。研究生因課業需要，除本系（所、學位學程）基本應修學分外，得經授課教師同意後選修大學部相關課程；該課程如需計入畢業學分，須經指導教授及系、所、學位學程相關會議通過，但以 3 學分為限。\n\n## 需繳交文件\n無\n\n## 辦理處室與期限\n無\n\n本回答僅供參考，請以各處室公告與承辦人說明為準。",
+      "sources": [
+        "grad-req-113#04",
+        "mis-master-curriculum-113#04",
+        "mis-master-curriculum-113#06",
+        "mis-master-curriculum-113#05",
+        "grad-req-113#03"
+      ],
+      "usage": {
+        "model": "qwen2.5:7b",
+        "input_tokens": 1980,
+        "output_tokens": 187,
+        "cache_read_tokens": 0,
+        "stop_reason": "stop",
+        "fell_back": false
+      },
+      "gold_answer_points": [
+        "最多3學分",
+        "限本系三、四年級課程",
+        "須經指導教授及系相關會議通過",
+        "大四與碩士班合開課程另計，以12學分為限"
+      ],
+      "gold_office": "資管系系辦",
+      "behavior_ok": null,
+      "points": [],
+      "point_coverage": null,
+      "office_ok": null,
+      "hallucination": null,
+      "judge_reason": "未評分（人工覆核）"
+    },
+    {
+      "qid": "Q38",
+      "type": "T2",
+      "source": "adversarial",
+      "question": "我是碩專班的，外系學分可以承認幾學分？",
+      "expected_behavior": "answer",
+      "status": "answer",
+      "year": 113,
+      "program": "碩專班",
+      "answer": "無\n\n依据context中的資訊，國立中興大學碩士在職專班學生與一般碩士班學生互選課程辦法並未明確規定外系學分的承認問題。因此，根據現有規章未涵蓋此項，建議洽詢最相關的處室（例如教務處）以獲得更詳細的資訊。\n\n本回答僅供參考，請以各處室公告與承辦人說明為準。",
+      "sources": [
+        "nchu-L2-22-exec-master#08",
+        "nchu-L3-03-cross-program#05",
+        "nchu-L3-02-cross-school#03",
+        "mis-thesis-process#02",
+        "nchu-L1-01-xuezhe#15"
+      ],
+      "usage": {
+        "model": "qwen2.5:7b",
+        "input_tokens": 2153,
+        "output_tokens": 80,
+        "cache_read_tokens": 0,
+        "stop_reason": "stop",
+        "fell_back": false
+      },
+      "gold_answer_points": [
+        "碩專班承認外系學分最多以0學分為限",
+        "不能套用碩士班的6或9學分"
+      ],
+      "gold_office": "資管系系辦",
+      "behavior_ok": null,
+      "points": [],
+      "point_coverage": null,
+      "office_ok": null,
+      "hallucination": null,
+      "judge_reason": "未評分（人工覆核）"
+    },
+    {
+      "qid": "Q42",
+      "type": "T5",
+      "source": "adversarial",
+      "question": "G9-3 表要去哪裡交？",
+      "expected_behavior": "deny_form",
+      "status": "answer",
+      "year": null,
+      "program": "碩士班",
+      "answer": "無\n\n## 結論\n現有規章中沒有名為「G9-3」的表單，請確認表單名稱是否正確。\n\n## 依據\n無\n\n## 需繳交文件\n無\n\n## 辦理處室與期限\n無\n\n本回答僅供參考，請以各處室公告與承辦人說明為準。",
+      "sources": [
+        "mis-thesis-process#16",
+        "grad-req-110#06",
+        "mis-thesis-process#03",
+        "grad-req-108#06",
+        "mis-thesis-process#19"
+      ],
+      "usage": {
+        "model": "qwen2.5:7b",
+        "input_tokens": 2446,
+        "output_tokens": 62,
+        "cache_read_tokens": 0,
+        "stop_reason": "stop",
+        "fell_back": false
+      },
+      "gold_answer_points": [
+        "現有規章中沒有名為 G9-3 的表單",
+        "不得捏造處室或用途",
+        "建議洽詢資管系系辦"
+      ],
+      "gold_office": "資管系系辦",
+      "behavior_ok": null,
+      "points": [],
+      "point_coverage": null,
+      "office_ok": null,
+      "hallucination": null,
+      "judge_reason": "未評分（人工覆核）"
+    },
+    {
+      "qid": "Q46",
+      "type": "T6",
+      "source": "unanswerable",
+      "question": "研究生宿舍要怎麼申請？",
+      "expected_behavior": "refuse",
+      "status": "answer",
+      "year": null,
+      "program": "碩士班",
+      "answer": "無\n\n現有規章未涵蓋此項，建議洽詢學務處或住宿相關單位以取得詳細資訊。\n\n本回答僅供參考，請以各處室公告與承辦人說明為準。",
+      "sources": [
+        "grad-req-108#08",
+        "grad-req-109#08",
+        "grad-req-110#08",
+        "grad-req-107#08",
+        "grad-req-111_112#08"
+      ],
+      "usage": {
+        "model": "qwen2.5:7b",
+        "input_tokens": 3055,
+        "output_tokens": 28,
+        "cache_read_tokens": 0,
+        "stop_reason": "stop",
+        "fell_back": false
+      },
+      "gold_answer_points": [
+        "現有規章未涵蓋",
+        "建議洽詢學務處住宿輔導組"
+      ],
+      "gold_office": "學務處",
+      "behavior_ok": null,
+      "points": [],
+      "point_coverage": null,
+      "office_ok": null,
+      "hallucination": null,
+      "judge_reason": "未評分（人工覆核）"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+# 機密：API key 只放這裡
+.env
+
+# 可重建的索引（python -m src.index 會重新產生）
+data/chroma/
+data/bm25.pkl
+
+# 原始規章 PDF：版權屬學校，不重新散布；用 download_sources.py 依 sources.csv 下載
+# （系網轉存的 Markdown 無法自動下載，保留）
+data/raw/*.pdf
+
+# chunker 產生的人工覆核表（可重建）
+data/review/
+
+# 開發日誌（不公開）
+流程.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 編輯器／工具的個人設定
+.vscode/
+.idea/
+.claude/
+
+# 系統檔
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
